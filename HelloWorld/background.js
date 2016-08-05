@@ -6,3 +6,12 @@ chrome.app.runtime.onLaunched.addListener(function() {
         }
     });
 });
+
+chrome.app.runtime.onInstalled.addListener(function() {
+  // Set up database
+});
+
+chrome.app.runtime.onSuspend.addListener(function() {
+  // Close connections
+});
+
